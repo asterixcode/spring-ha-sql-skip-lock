@@ -2,11 +2,11 @@
 
 ## Overview
 
-Sample code for the persistence layer on high available environments using Spring Boot and JPA.
+Sample code for `SELECT ... FOR UPDATE SKIP LOCKED` using Spring Boot and JPA.
 
 ## Use Case example
 
-A scheduled job that fetches data from a database table and processes it.
+A scheduled job in a high available environment that fetches data from a database table and processes it.
 
 ## Description
 
